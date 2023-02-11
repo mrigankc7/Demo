@@ -36,6 +36,8 @@ public static void main(String[] args) throws InterruptedException, IOException 
 
 String downloadPath=System.getProperty("user.dir");
 
+System.out.print("hello");
+
 System.setProperty("webdriver.chrome.driver","C:\\work\\chromedriver.exe");
 
 HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
